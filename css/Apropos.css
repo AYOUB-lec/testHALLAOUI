@@ -1,0 +1,128 @@
+
+.rocks img{
+    height:35vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Apropos{
+    height: 87vh;
+    width: 100%;
+    
+}
+
+.Apropos .title{
+    height: 17vh;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.Apropos span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(124, 109, 109);
+}
+.Apropos section{
+    height: 70vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.Apropos section p{
+    margin-top:55px;
+    line-height: 25px;
+    color: rgb(98, 77, 77);
+
+}
+.Apropos section img{
+    width: 540px;
+    height: 303px;
+    opacity: 0;
+    transition:opacity 1s ease;
+}
+.Apropos section div{
+    height: 100%;
+    width:40vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/** info **/
+
+.info{
+    height:70vh;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.DA{
+    height:80% ;
+    width: 40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    transform: translateY(100px);
+    transition: all 0.6s ease;
+    opacity:0;
+}
+
+.DA ul li {
+    margin-bottom: 7px;
+}
+
+.DA ul {
+    list-style: none;
+}
+.DA ul li{
+    color:rgb(93, 72, 72);
+}
+
+.DA span{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(124, 109, 109);
+}
+.CA{
+    height:80% ;
+    width: 40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-bottom: 120px;
+
+}
+.CA span:first-child{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(124, 109, 109);
+}
+
+.stats{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    opacity:0;
+    border: none;
+    transition: opacity 1.2s ease;
+    transition: border 0.3s ease;
+    padding:20px 10px;
+}
+
+.stats div h1{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: rgb(58, 40, 40);
+}
+
+.stats div span{
+    color: rgb(90, 74, 74);
+}

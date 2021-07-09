@@ -1,0 +1,297 @@
+/************ slide animation *****************/
+.image-animation-box{
+    position: sticky;
+    top: 13vh;
+    height: 87vh;
+    z-index: -500;
+}
+
+.image-animation-box img{
+
+    height: 560px;
+    width: 100%;
+    transition:0.6s ease;
+
+}
+
+/************* real z-index ****************/
+.Z-first100vh{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    z-index: 500;
+}
+
+.Z-first100vh span{
+    font-weight: 530;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Z-first100vh .line{ 
+    width: 44%;
+    height:2px;
+    background-color: chartreuse;
+    margin-bottom: 100px;
+}
+
+.btn {
+    height: 55px;
+    width: 160px;
+    text-transform: uppercase;
+    background-color: rgb(240, 200, 25);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    transition:background-color .5s ease;
+    font-weight: bolder;
+}
+.btn:hover {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(240, 200, 25);
+    background-color: transparent;
+    color: rgb(240, 200, 25);
+}
+
+.slide{
+    transform: translateX(1500px);
+    transition: 1s  ease;
+}
+
+.Sa{
+   opacity: 0;
+   transition: 2s  ease;
+ 
+}
+/*********************** second page  ************************/
+.secondPage{
+    background: rgb(255, 255, 254);
+    height: 150vh;
+    width: 100%;
+    /*test test padding alert*/
+    padding: 80px 120px;
+}
+
+.motDirecteur{
+    height: 62vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:white;
+}
+
+.image{
+    width: 50%;
+    height: 55vh;
+   
+}
+.motDirecteur .image img{
+    height:250px;
+    width: 540px;
+}
+
+
+.text{
+ width: 45%;
+ height: 42vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+
+.text h1{
+    font-size: 1.5rem;
+}
+.text p{
+    line-height: 30px;
+    color: grey;
+} 
+
+.text .radious {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: black;
+    font-weight:700;
+    font-size: 15px;
+    outline: none;
+}
+
+.text .radious:hover{
+    border: 1px solid;
+    border-radius: 50px;
+   border-color: rgb(240, 200, 25);
+    background-color: transparent;
+    color: rgb(240, 200, 25);
+}
+
+
+/*articles*/
+.derniersArticles{
+    height: 62vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.size{
+    width: 23.3%;
+    height: 100%;
+}
+
+.size img{
+    width: 258px;
+   height: 129px;
+}
+
+.title {
+   padding-top: 5px;
+}
+.title span{
+    font-size: 1.5rem;
+    font-weight:700;
+}
+.title .Sline{
+   margin-top: 30px;
+   height: 2px;
+   width: 25%;
+   background-color: rgb(240, 200, 25);
+}
+
+.art span{
+  color:rgb(92, 59, 59);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.art p{
+   color:rgb(138, 95, 138);
+   line-height: 25px;
+   font-size: 14px;
+}
+
+.art a{
+
+color:rgb(235, 186, 63);
+text-decoration: none;
+font-size: 14px;
+transition: .5s ease;
+font-weight: bold;
+border: 1px solid transparent;
+
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.art a:hover{
+    color: indigo;
+    border-bottom: 1.5px solid rgb(235, 186, 63);
+
+}
+
+/*******POSTULER************/
+
+.postuler{
+    height: 35vh;
+    width: 100%;
+    background-image: url("../images/postuler/20180802_200127.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left ;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px 0px ;
+}
+
+.postuler h1{
+  color: rgb(255, 238, 0);
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.postuler span{
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+}
+
+/*** partenariats   *********/
+.partenariats{
+    height: 150vh;
+    width: 100%;
+    padding:80px 100px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.partenariats span{
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    height: 10%;
+}
+
+.partenariats img{
+    height:179px;
+    width :159px;
+}
+
+.subPartner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.backrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%; 
+}
+.frontrow{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.frontrow img{
+    height: 245px;
+    width: 226px;
+}
+
+.Ta{
+    opacity: 0;
+    transition: 1s ease; 
+}
+
+.FRa{
+    opacity: 0;
+    transition: 1s ease; 
+}
+
