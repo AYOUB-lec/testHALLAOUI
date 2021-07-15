@@ -146,7 +146,8 @@ footer{
     text-align: center;
     transition: .7s ease;
     padding-top: 13px;
-    font-weight: 400;
+    font-weight: 300;
+    text-transform:capitalize;
     cursor: pointer;
 }
 
@@ -187,6 +188,8 @@ footer{
     padding-top: 13px;
     font-weight: 400;
     cursor: pointer;
+    text-transform:capitalize;
+
 }
 
 .DRR ul li:hover{

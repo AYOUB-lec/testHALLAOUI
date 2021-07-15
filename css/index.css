@@ -295,3 +295,42 @@ border: 1px solid transparent;
     transition: 1s ease; 
 }
 
+.appear{
+    position:fixed;
+    top: 15vh;
+    height: 80vh;
+    width: 90vw;
+    background-color: burlywood;
+    left: 5vw;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    padding: 30px 50px;
+    transform: translateX(1500px);
+    transition:all 1.2s ease ;
+}
+.appear span{
+    font-size:2rem ;
+    font-family: "roboto",sans-serif;
+    color: cyan;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.appear span:hover{
+    color: rgb(235, 221, 166);
+    text-decoration: underline;
+}
+.appear p{
+    color:rgb(75, 10, 10);
+    font-size: 14px;
+}
+.appear i{
+    position: fixed;
+    top: 2vh;
+    right: 1vw;
+    color: cyan;
+    cursor: pointer;
+}

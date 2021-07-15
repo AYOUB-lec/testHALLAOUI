@@ -1,0 +1,345 @@
+.mat{
+
+    height: 87vh;
+    width: 100%;
+    background-color: burlywood;
+    overflow: hidden;
+}
+.mat .first{
+padding: 100px 200px;
+padding-top: 150px;
+   height: 87vh;
+   width: 100%;
+   background-color: coral;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+
+.first span{
+    position: absolute;
+    top: 18vh;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 1;
+}
+.first p {
+  width: 45%;
+  text-align:justify ;
+  color: cyan;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.first img{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    transition: all 0.7s ease;
+}
+
+.first button{
+    position: absolute;
+    top: 47vh;
+    right:25vw;
+    padding: 20px 30px;
+    background-color: coral;
+    border: none;
+    outline: none;
+    color: aqua;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.7s ease;
+    cursor:pointer;
+    font-weight: bolder;
+}
+
+.first button:hover{
+    background-color: aliceblue;
+    color: darkred;
+}
+
+/* tableau animation*/
+#tab{
+    height: 80vh;
+    width: 35vw;
+    position: absolute;
+    top: 13vh;
+    left:32vw;
+   transform: translateX(-1000px);
+    transition: all 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#tab .cancel{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-end;
+    padding: 0px 5px;
+}
+.cancel .container{
+    height: 100%;
+    width: 20%;
+   display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.cancel .container div{
+    width: 4px;
+    height: 25px;
+    background-color: rgb(39, 36, 36);
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.cancel .container div:first-child{
+   
+    transform: rotate(-45deg) translate(5px);
+}
+/* second */
+.mat .second{
+    padding: 100px 200px;
+       height: 87vh;
+       width: 100%;
+       background-color: rgb(177, 81, 46);
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       transition: all 1s ease;
+    }
+
+    .mat .second .bas{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .mat .second img{
+
+        width: 400px;
+        height: 200px;
+        border-radius: 5px;
+        transition: all 0.7s ease; 
+    }
+
+    
+.second p {
+    width: 48%;
+    text-align:justify ;
+    color: cyan;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .second span{
+      color: rgb(186, 215, 240);
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+  }
+
+  /*dots*/
+
+  .dots{
+      position: absolute;
+      top: 47vh;
+      right: 5vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+     /*height ...*/
+     height: 60px; 
+     width: 50px;
+     z-index: 1;
+  }
+
+  .dots div{
+     cursor: pointer;
+      font-size: 4rem;
+      color:#fff;
+      height: 15px;
+      width: 15px;
+      border: 3px solid white ;
+      border-radius: 50%;
+      transition: all 0.7s ease;
+  }
+
+  .checked{
+    background-color: rgb(0, 0, 0);
+  }
+
+/*humains*/
+
+.hum{
+    position: absolute;
+    top: 13vh;
+    height: 87vh;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*yup*/
+    transition: all 1.2s ease;
+
+}
+
+.hum img{
+ height: 240px;
+ width: 290px;
+}
+.hum p{
+ height: 220px;
+ width: 460px; 
+ font-size: 15px;
+ text-align: center;
+ color: white;
+}
+
+
+.small-con{
+    height: 97%;
+    width: 40%;
+    background-color: rgb(105, 105, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    border-radius: 10px;
+    transform: translateX(-23.7vw);
+
+}
+
+.SL{
+    transform: translateX(23vw);
+    background-color: rgb(173, 159, 33);
+}
+
+.arrows{
+    padding: 0px 60px;
+    height: 40px;
+    width: 800px;
+    position: absolute;
+    top: 90vh;
+    left: 20vw;
+    z-index: 500;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows div{
+    height: 30px;
+    width:30px;
+    background-color: rgb(102, 88, 88);
+    padding: 4px 10px;
+    border-radius:50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.turn{
+    transform: rotate(180deg);
+}
+
+.glide{
+    transition: all 1s ease;
+
+}
+
+.tit{
+    position: absolute;
+    z-index: 500;
+    top: 16vh;
+    left: 5vw;
+    font-size: 1.4rem;
+    color: teal;
+    font-weight: bolder;
+}
+
+section{
+    padding: 50px 450px;
+    top: 13vh;
+    height: 87vh;
+    width: 100vw;
+    position: absolute;
+    z-index:1000;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   transition: all 1.2s ease;
+}
+section h2{
+    color: tomato;
+    font-size: 2rem;
+}
+
+section span{
+    color: rgb(80, 66, 66);
+    font-size: 18px;
+    font-weight:bold ;
+
+}
+section p{
+    text-align: justify;
+    color: rgb(32, 26, 26);
+}
+
+.display{
+    display: none;
+}
+
+
+section div{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.btnC{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:60vh;
+    right: 1vw;
+    z-index: 2000;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(48, 48, 53, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.btnC button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(158, 91, 91);
+    color: beige;
+font-size: 15px;
+box-shadow: rgba(48, 48, 53, 0.2) 0px 7px 29px 0px;
+cursor: pointer;
+}
+
+#btn2{
+    padding: 10px 25px;
+
+  
+}

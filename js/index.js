@@ -78,5 +78,17 @@ setInterval(()=>{
 
 }, 15000);
 
+//lire plus : mot du directeur
+let lirePlus = document.querySelector('.text .radious');
+let appear = document.querySelector('.appear');
+lirePlus.addEventListener('click', ()=>{
+   appear.style.transform = 'translateX(0px)'
+
+})
+let appearI = document.querySelector('.appear i');
+
+appearI.addEventListener('click', ()=>{
+    appear.style.transform = 'translateX(1500px)'
+ })
 
 

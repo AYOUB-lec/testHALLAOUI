@@ -23,8 +23,7 @@ function positionChanger () {
             //top.style.display ='none'; 
             top.style.opacity ='0';
           }
-         //DA
-         //CA
+         
          if(this.scrollY > window.innerHeight/1.2  ){
           console.log('hoo')
           let DA = document.querySelector('.DA');

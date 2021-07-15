@@ -1,0 +1,152 @@
+main{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+main .para p{
+    width: 800px;
+    text-align: center;
+}
+
+main .bottom{
+    height: 70%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom #tit{
+  font-size: 1.7rem;
+  font-weight:bold;
+}
+.illustration{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.illustration div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 90%;
+}
+
+
+.bottom button{
+    padding: 15px 25px;
+    background-color: rgb(112, 96, 76);
+    border: none;
+    cursor: pointer;
+    color: beige;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.bottom button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid orange;
+}
+
+section{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: peru;
+}
+
+#first {
+ height: 15%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
+#first span{
+    font-size:1.4rem;color:crimson;font-weight: bolder;
+    text-align: center;
+}
+#first p{
+    line-height: 150%;
+    font-size: 17px;
+    text-align: center;
+}
+
+form{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+form div{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form input[type=text],form input[type=email],form input[type=tel], form select{
+   width: 60%;
+   height: 40%;
+   border-radius: 5px;
+   border: none;
+   text-align: center;
+   background-color: seashell;
+   outline: none;
+   font-size: larger;
+   transition: all 0.4s ease;
+}
+form input[type=tel]:focus{
+    background-color: rgb(116, 96, 96);
+    color: white;
+    border: 1px solid black;
+}
+form input[type=email]:focus{
+    background-color: rgb(116, 96, 96);
+    color: white;
+    border: 1px solid black;
+
+}
+form input[type=text]:focus{
+    background-color: rgb(116, 96, 96);
+    color: white;
+    border: 1px solid black;
+
+}
+
+form label{
+    color: white;
+    font-size: 1.2rem;
+}
+
+form input[type=file]{
+    color:white;
+    width: 60%;
+    height: 40%;
+    font-size: 1.2rem;
+}
+form input[type=submit]{
+    width: 30%;
+    height: 40%;
+}

@@ -1,0 +1,117 @@
+.rocks{
+    height: 30vh;
+    width: 100%;
+}
+.rocks img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.para{
+    width: 100%;
+    height:45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para span{
+    padding: 30px 20px;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.para p{
+    padding: 30px 300px;
+    width: 100%;
+    height: 70%;
+    text-align:center;
+    color:#000000;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+/********************************************************************************/
+.wrap{
+    height: 1050px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.REALISATIONS{
+    height: 1025px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.rea{
+    width: 45%;
+    padding: 20px 10px;
+    display: flex;
+    transition:all 1s ease;
+    filter: grayscale(1.3);
+}
+.rea:hover{
+    transform: scale(1.1) ;
+    filter: grayscale(0);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rea img{
+    height: 70px;
+    width: 70px;
+}
+
+.rea p{
+    color: #565656;
+    opacity: 80%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.emb span {
+    color: black;
+    font-weight: bold;
+}
+
+/*************************************************/
+
+.alert{
+position: fixed;
+top: 35vh;
+left:35vw;
+height: 150px;
+width: 250;
+background-color: rgb(58, 52, 54);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: all 1.3s ease;
+transform: translateX(-1000px);
+}
+
+.alert span{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    color: cyan;
+    line-height: 170%;
+}
+.opa{
+    transition: all 1s ease;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--styling-->
+     <link rel="stylesheet" href="../css/Recrutement.css">
+     <link rel="stylesheet" href="../css/NavFooter.css">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+     <!--behavior-->
+      <script defer src="../js/nav.js"></script>  
+      <script defer src="../js/Recrutement.js"></script>
+</head>
+<body>
+    <nav>
+        <img src="../images/logo/EL-HALLAOUI-8_8-couleur-3.jpg" alt="logo">
+        <ul>
+            <li class="hover"><a href="../index.html">Accueil</a></li>
+            <li class="hover"><a href="./Apropos.html">A propos</a></li>
+            <li class="hover"><a href="./Activité.html">Activités</a></li>
+            <li  class="hover"><a href="./Réalisations.html">Réalisations</a></li>
+            <li  class="dropM"><a href="./moyens.html">Moyens</a></li>
+            <li id="child" class="dropR"><a href="./Recrutement.html">Recrutement</a></li>
+            <li class="hover"><a href="./Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="para">
+            <p>
+                Si vous voulez investir dans votre carrière et développer votre expertise, alors venez rejoindre une société <strong>leader</strong>  dans le domaine du BTP au <strong>Maroc</strong> .  Nous vous assurons une bonne rémunération et un environnement apprenant.
+            </p>
+        </div>
+        <div class="bottom">
+            <span id="tit"> Qu'est ce qu'on vous propose? </span>
+            <div class="illustration">
+                <div>
+                    <img src="../images/recrut/1.PNG" alt="">
+                    <span>Des responsabilités rapides pour appréhender tous les défis d’un projet, et évoluer facilement </span>
+                </div>
+                <div>
+                    <img src="../images/recrut/2.PNG" alt="">
+                     <span>Une culture d’entreprise attachante avec des gens passionnés</span>
+                </div>
+                <div>
+                    <img src="../images/recrut/3.PNG" alt="">
+                    <span>La possibilité d’avoir un impact sur un projet, un ouvrage qui laisse une trace positive </span>
+                </div>
+            </div>
+            <button id="submit">Envoyer Votre CV</button>
+        </div>
+    </main>
+    <section>
+        <div id="first">
+        <span>Postulez pour un emploi chez Elhallaoui BTP</span>
+        <p>
+             <br>
+            Notre groupe évolue et nous sommes sans cesse à la recherche de nouveaux talents.
+            Si aucune offre d’emploi n’a retenu votre attention, vous pouvez nous soumettre votre candidature spontanée grâce au formulaire ci-dessous.
+        </p>
+    </div>
+        <form action="POST" data-netlify="true">   
+           <div>
+               
+               <label for="nom">Nom*</label>
+               <input type="text" name="nom" id="nom" required>
+            
+           </div>
+           <div>
+            <label for="prenom">Prenom*</label>
+            <input type="text" name="prenom" id="prenom" required>
+        </div>
+        <div>
+            <label for="email">Email* </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="phone">Numéro de téléphone*</label>
+            <input type="tel" id="phone" name="phone" placeholder="01 23 45 67 89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        </div>
+        <div>
+            <label for="exp">Nombre d'années d'expérience*</label>
+            <select name="experience" id="exp" required>
+                <option value="0-2">Débutant(0-2)</option>
+                <option value="2-5">Confirmé(2-5)</option>
+                <option value="5+">Expérimenté(5+)</option>
+            </select>
+        </div>
+        <div>
+            <label for="cv">Joindre votre CV* </label>
+            <input type="file" name="cv" id="cv" required>
+        </div>
+        <div>
+            <label for="motivation">Joindre votre lettre de motivation* </label>
+            <input type="file" name="motivation" id="motivation" required>
+        </div>
+        <div data-netlify-recaptcha="true">
+
+        </div>
+        <div>
+            <input  type="submit" name="submit" value="POSTULER">
+        </div>
+        </form>
+    </section>
+ 
+</body>
+</html>
